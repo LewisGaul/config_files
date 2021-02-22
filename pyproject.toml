@@ -15,7 +15,7 @@ build-backend = "setuptools.build_meta"
 # BLACK
 # -----
 [tool.black]
-line-length = 80
+line-length = 88
 target_version = ['py36']
 include = '\.pyi?$'
 exclude = '''
@@ -33,7 +33,7 @@ exclude = '''
 # -----
 [tool.isort]
 # Make compatible with Black
-line_length = 80
+line_length = 88
 multi_line_output = 3
 include_trailing_comma = true
 force_grid_wrap = 0
